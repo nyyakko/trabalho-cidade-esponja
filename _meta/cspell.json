@@ -6,5 +6,5 @@
         { "name": "whitelist", "path": "./dicts/whitelist.txt", "addWords": true }
     ],
     "dictionaries": ["whitelist"],
-    "ignorePaths": ["./dicts/whitelist.txt", "**/_*.md"]
+    "ignorePaths": ["./dicts/whitelist.txt", "**/README.md", "**/_*.md"]
 }
