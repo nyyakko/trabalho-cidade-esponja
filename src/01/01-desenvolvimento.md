@@ -1,4 +1,4 @@
-# Desenvolvimento {-}
+# Desenvolvimento
 
 O problema que produziu a ideia de cidade-esponja se baseia na observação de
 que as cidades frequentemente lidam de forma inadequada com o manejo das águas
