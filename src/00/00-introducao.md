@@ -1,4 +1,4 @@
-# Introdução {-}
+# Introdução
 
 O conceitos de cidades-esponja foi criado pelo arquiteto chinês Kongjian Yu e
 seu time em meados de 1997 e se refere a uma infraestrutura urbana ecológica

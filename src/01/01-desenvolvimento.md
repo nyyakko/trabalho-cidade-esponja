@@ -1,4 +1,4 @@
-# Desenvolvimento {-}
+# Desenvolvimento
 
 O problema que produziu a ideia de cidade-esponja se baseia na observação de
 que as cidades frequentemente lidam de forma inadequada com o manejo das águas
@@ -13,7 +13,7 @@ parques, lagos, pântanos, jardins e áreas verdes no geral atuam no processo de
 captação da água de forma natural. Dessa forma, no contexto urbano, a
 cidade-esponja adota quatro principais medidas para alcançar esse objetivo:
 parques alagáveis; telhados verdes; pavimentação permeável; praças de piscinas
-(REDAÇÃO, 2024).
+[@Redação].
 
 ![Cidade](/app/src/01/_imagens/imagem_2.jpg){#id}
 
@@ -27,4 +27,4 @@ integrado; implementação de infraestrutura; monitoramento e manutenção.
 Elas não precisam ser implementadas do completo zero, mas podem ser adaptadas
 ao longo do tempo, não necessitando, assim, de grandes investimentos por parte
 dos governos das respectivas cidades, se comparado à fazer uma cidade do zero
-(ECOTELHADO, 2024).
+[@Ecotelhado].

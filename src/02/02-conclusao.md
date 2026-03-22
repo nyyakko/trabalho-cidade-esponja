@@ -1,4 +1,4 @@
-# Conclusão {-}
+# Conclusão
 
 A partir das análises feitas, conclui-se que é possível a implementação de
 cidades-esponjas no estado paranaense, fato suportado pelos investimentos nas
