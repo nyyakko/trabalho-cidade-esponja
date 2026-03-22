@@ -1,12 +1,16 @@
 {
   "scripts": {
-    "build": "/bin/sh _meta/scripts/build.sh",
-
+    "build": "cross-os build:impl",
+    "build:impl": {
+      "linux": "/bin/sh _meta/scripts/build.sh",
+      "win32": "ps1 _/meta/scripts/build.ps1"
+    },
     "corretor:verificar": "cspell --config _meta/cspell.json \"**/*.md\"",
     "corretor:ignorar": "cspell --config _meta/cspell.json --words-only --unique \"**/*.md\" | sort --ignore-case >> ./_meta/dicts/whitelist.txt"
   },
   "devDependencies": {
     "@cspell/dict-pt-br": "^2.4.2",
+    "cross-os": "^1.5.0",
     "cspell": "^9.7.0"
   }
 }
