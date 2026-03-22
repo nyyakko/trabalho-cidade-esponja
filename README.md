@@ -54,6 +54,7 @@ $ npm run corretor:ignorar
 
 e a whitelist será atualizada em ``./_meta/dicts/whitelist.txt``.
 
-> [!NOTE]
-> Baseado no projeto do [dsoaress](https://github.com/dsoaress/abnt-pandoc), sendo adaptado para as
-> minhas necessidades específicas.
+## Créditos
+
+Baseado no projeto do [dsoaress](https://github.com/dsoaress/abnt-pandoc), sendo adaptado para as
+minhas necessidades específicas.
