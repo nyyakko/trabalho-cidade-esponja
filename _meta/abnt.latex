@@ -42,11 +42,11 @@ $endif$
 
 % ajuste dos títulos
 \titleformat{\section}
-{\singlespacing\normalfont\Large\sffamily\bfseries\raggedright}{\thesection}{0.5em}{}
+{\singlespacing\normalfont\large\sffamily\bfseries\raggedright\uppercase}{\thesection}{0.5em}{}
 \titleformat{\subsection}
-{\singlespacing\normalfont\large\sffamily\bfseries\raggedright}{\thesubsection}{0.5em}{}
+{\singlespacing\normalfont\large\sffamily\bfseries\raggedright\uppercase}{\thesubsection}{0.5em}{}
 \titleformat{\subsubsection}
-{\singlespacing\normalfont\normalsize\sffamily\bfseries\raggedright}{\thesubsubsection}{0.5em}{}
+{\singlespacing\normalfont\normalsize\sffamily\bfseries\raggedright\uppercase}{\thesubsubsection}{0.5em}{}
 
 % ajuste da numeração das páginas
 \pagestyle{fancy}
@@ -129,7 +129,7 @@ $endif$
 
 % formatação das referências
 \newcommand{\referencestitle}{
-    \singlespacing\normalfont\Large\sffamily\bfseries\center
+    \singlespacing\normalfont\large\sffamily\bfseries\center\uppercase
 }
 \newenvironment{cslreferences}
 
@@ -200,7 +200,7 @@ $endif$
     $if(resumo)$
        \begingroup % corrige inconsistência nos espaçamentos verticais
        \titleformat{\section}
-       {\singlespacing\normalfont\Large\sffamily\bfseries\center}{\thesection}{0.5em}{}
+       {\singlespacing\normalfont\large\sffamily\bfseries\center\uppercase}{\thesection}{0.5em}{}
        \section*{Resumo}
        \endgroup
        \begin{abstract}
