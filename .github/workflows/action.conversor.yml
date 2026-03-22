@@ -16,7 +16,8 @@ jobs:
         run: docker build -t pandoc .
 
       - name: build pdf
-        run: chmod +x ./build-pdf.sh && ./build-pdf.sh
+        run: chmod +x ./_meta/scripts/build.sh && ./_meta/scripts/build.sh
+
 
       - name: upload artifacts
         uses: actions/upload-artifact@v4
