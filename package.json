@@ -5,6 +5,10 @@
       "linux": "/bin/sh _meta/scripts/build.sh",
       "win32": "powershell -NoProfile -ExecutionPolicy Bypass -File _meta/scripts/build.ps1"
     },
+    "watch": "cross-os watch:impl",
+    "watch:impl": {
+        "linux": "find ./src/ -name \"*.md\" | entr bash -c \"clear && npm run corretor:verificar && npm run build\""
+    },
     "corretor:verificar": "cspell --config _meta/cspell.json \"**/*.md\"",
     "corretor:ignorar": "cspell --config _meta/cspell.json --words-only --unique \"**/*.md\" | sort --ignore-case >> ./_meta/dicts/whitelist.txt"
   },
