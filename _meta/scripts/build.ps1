@@ -1,11 +1,11 @@
 if (-not (Get-Command docker -ErrorAction SilentlyContinue)) {
-    Write-Host "Docker não está disponível em seu sistema, siga as instruções e instale: https://docs.docker.com/get-started/get-docker/"
+    Write-Host "Docker nao esta disponível em seu sistema, siga as instrucoes e instale: https://docs.docker.com/get-started/get-docker/"
     exit 1
 }
 
 & docker image inspect pandoc 1>$null 2>$null
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "Docker image não encontrada, realizando build neste instante"
+    Write-Host "Docker image nao encontrada, realizando build neste instante"
     docker build -t pandoc .
     Write-Host "Feito!"
 }

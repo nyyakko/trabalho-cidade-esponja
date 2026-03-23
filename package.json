@@ -3,7 +3,7 @@
     "build": "cross-os build:impl",
     "build:impl": {
       "linux": "/bin/sh _meta/scripts/build.sh",
-      "win32": "ps1 _/meta/scripts/build.ps1"
+      "win32": "powershell -NoProfile -ExecutionPolicy Bypass -File _meta/scripts/build.ps1"
     },
     "corretor:verificar": "cspell --config _meta/cspell.json \"**/*.md\"",
     "corretor:ignorar": "cspell --config _meta/cspell.json --words-only --unique \"**/*.md\" | sort --ignore-case >> ./_meta/dicts/whitelist.txt"
